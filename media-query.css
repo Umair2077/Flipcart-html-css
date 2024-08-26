@@ -1,0 +1,34 @@
+@media screen and (max-width:992px){
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .searchbox,.login-button,.become-seller,.more-box,.cart-box{
+        display: none;
+    }
+    .belownavbar .cardbox{
+        width:40px ;
+        height: 40px;
+    }
+    .hero-section{
+        background-position: center;
+    }
+    .main-section{
+        flex-direction: column;
+        /* height: 600px; */
+        gap: 50px;
+        /* overflow: hidden; */
+    }
+    .main-section .item-box1{
+        margin-top: 30px;
+     
+    }
+    .main-section .item-section{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height:400px;
+        max-width: 100%;
+        
+    }
+    
+}

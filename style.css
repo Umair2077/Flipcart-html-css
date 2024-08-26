@@ -1,0 +1,238 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family:  sans-serif;
+  background-color: #e3dada;
+}
+
+.container{
+  /* for responsivness */
+  overflow: hidden;
+}
+
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: #2874f0;
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.navbar .nav-toggle{
+  display: none;
+}
+
+.logosection {
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logosection .flipcart-logo {
+  width: 80px;
+}
+.logosection .logo-text {
+  font-weight: bold;
+  font-size: 14px;
+  color: #9a9494;
+}
+.logosection span {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(235, 180, 114);
+}
+.searchbox {
+  display: flex;
+  width: 350px;
+  height: 40px;
+  background-color: blueviolet;
+}
+.searchbox input {
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.searchbox button {
+  width: 10%;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+}
+.searchbox button a {
+  color: #2874f0;
+}
+
+.login-button button {
+  padding: 10px 15px;
+  color: #2874f0;
+  border: none;
+  outline: none;
+}
+.login-button button a {
+  color: #2874f0;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cart-box {
+  color: white;
+}
+
+.become-seller a,
+.more-box a,
+.cart-box a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.belownavbar {
+  max-width: 100%;
+  height: 150px;
+  background-color: white;
+display: flex;
+  
+  justify-content: space-evenly;
+  align-items: center;
+}
+.belownavbar .cardbox {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.belownavbar .cardbox .card {
+  height: 90%;
+  width: 90%;
+}
+.belownavbar .cardbox p {
+  font-size: 17px;
+}
+.hero-section {
+  margin-top: 10px;
+  height: 280px;
+  max-width: 100%;
+  background: url("images/heroImg.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-section{
+ 
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+  /* max-width: 100%; */
+  /* height: 320px; */
+  background-color: white;
+}
+.item-section {
+
+  /* height: 300px; */
+  width: 600%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-section .item-box1 {
+  height: 220px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .item-box1 .item-text {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+  line-height: 1.38;
+  color: #2e2e2e;
+  text-align: center;
+}
+.main-section .item-box1 .view-all {
+  padding: 10px 20px;
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  outline: none;
+}
+.item-box {
+  height: 300px;
+  width: 180px;
+}
+.item-box .item-box-img {
+  height: 230px;
+  width: 100%;
+}
+.item-box .item-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2e2e2e;
+}
+
+.item-box .item-box-text p {
+  padding-top: 10px;
+}
+
+.item-box .item-box-text a {
+  text-decoration: none;
+  color: rgb(31, 204, 31);
+}
+.footer-section {
+  height: 350px;
+  max-width: 100%;
+  background-color: #0a1931;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-section .footer-left {
+  height: 300px;
+  width: 150px;
+}
+.footer-section .footer-heading {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #787171;
+  font-size: 14px;
+}
+.footer-section .footer-info {
+  margin-top: 10px;
+  font-size: 12px;
+  color: white;
+}
+.footer-section .footer-info p {
+  padding-bottom: 7px;
+  font-weight: lighter;
+}
+.footer-section .footer-right {
+  height: 300px;
+  width: 250px;
+}
+.footer {
+  margin-top: 2px;
+  height: 70px;
+  max-width: 1005;
+  background-color: #0a1931;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer span {
+  font-size: 13px;
+}
